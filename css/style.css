@@ -1,0 +1,880 @@
+@font-face {
+    font-family: 'Mirador DEMO';
+    src: url('../fonts/Mirador-BoldDEMO.eot');
+    src: url('../fonts/Mirador-BoldDEMO.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Mirador-BoldDEMO.woff2') format('woff2'),
+        url('../fonts/Mirador-BoldDEMO.woff') format('woff'),
+        url('../fonts/Mirador-BoldDEMO.ttf') format('truetype'),
+        url('../fonts/Mirador-BoldDEMO.svg#Mirador-BoldDEMO') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mirador Book DEMO';
+    src: url('../fonts/Mirador-BookDEMO.eot');
+    src: url('../fonts/Mirador-BookDEMO.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Mirador-BookDEMO.woff2') format('woff2'),
+        url('../fonts/Mirador-BookDEMO.woff') format('woff'),
+        url('../fonts/Mirador-BookDEMO.ttf') format('truetype'),
+        url('../fonts/Mirador-BookDEMO.svg#Mirador-BookDEMO') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-SemiBold.eot');
+    src: url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-SemiBold.woff2') format('woff2'),
+        url('../fonts/Gilroy-SemiBold.woff') format('woff'),
+        url('../fonts/Gilroy-SemiBold.ttf') format('truetype'),
+        url('../fonts/Gilroy-SemiBold.svg#Gilroy-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.eot');
+    src: url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff'),
+        url('../fonts/Gilroy-Bold.ttf') format('truetype'),
+        url('../fonts/Gilroy-Bold.svg#Gilroy-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.eot');
+    src: url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('../fonts/Gilroy-Medium.woff') format('woff'),
+        url('../fonts/Gilroy-Medium.ttf') format('truetype'),
+        url('../fonts/Gilroy-Medium.svg#Gilroy-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Light.eot');
+    src: url('../fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Light.woff2') format('woff2'),
+        url('../fonts/Gilroy-Light.woff') format('woff'),
+        url('../fonts/Gilroy-Light.ttf') format('truetype'),
+        url('../fonts/Gilroy-Light.svg#Gilroy-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.eot');
+    src: url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff'),
+        url('../fonts/Gilroy-Regular.ttf') format('truetype'),
+        url('../fonts/Gilroy-Regular.svg#Gilroy-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBold.eot');
+    src: url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
+        url('../fonts/Gilroy-ExtraBold.ttf') format('truetype'),
+        url('../fonts/Gilroy-ExtraBold.svg#Gilroy-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Light.eot');
+    src: url('../fonts/Manrope-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Manrope-Light.woff2') format('woff2'),
+        url('../fonts/Manrope-Light.woff') format('woff'),
+        url('../fonts/Manrope-Light.ttf') format('truetype'),
+        url('../fonts/Manrope-Light.svg#Manrope-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron-Light.eot');
+    src: url('../fonts/Aileron-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Aileron-Light.woff2') format('woff2'),
+        url('../fonts/Aileron-Light.woff') format('woff'),
+        url('../fonts/Aileron-Light.ttf') format('truetype'),
+        url('../fonts/Aileron-Light.svg#Aileron-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+}
+
+.header-container {
+    background-image: linear-gradient(70deg, rgb(245, 42, 42) 20%, #481544, #3F1445, #15447B);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+}
+
+.nav-section {
+    border-bottom: 1px solid rgb(255, 255, 255, 0.26);
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+}
+
+.brand-text {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar-nav .navbar-link+.navbar-link {
+    margin-left: 50px;
+    /* font-family: 'Gilroy', sans-serif;
+    font-weight: 300; */
+}
+.navbar-link{
+    font-family: 'Aileron', sans-serif;
+    font-weight: 300;
+}
+.banner-section {
+    padding: 80px 0;
+}
+
+.digital-head {
+    font-size: 70px;
+    font-family: 'Mirador DEMO', sans-serif;
+    font-weight: bold;
+   
+}
+.better{
+    transition:1.8s ease-in-out;
+}
+.middle{
+    transition:1.8s ease-in-out;
+}
+.digital-img {
+    width: 400px;
+    height: 450px;
+}
+
+.digital-section {
+    position: relative;
+   
+}
+
+.pendal-img {
+    position: absolute;
+    top: 94%;
+    left: 22%;
+    height: 150px;
+}
+
+.pendal-container{
+    position:relative;
+
+}
+/* .pendal-img{
+    position: relative;
+} */
+.pendal-before{
+    position:absolute;
+    height:10px;
+    width:10px;
+    background-color:transparent;
+    border:1px solid #FFFFFF;
+    border-radius:50%;
+    top:-1%;
+    left:21.6%;
+   
+}
+.pendal-after{
+   position: absolute;
+    height:10px;
+    width:10px;
+    background-color:transparent;
+    border:1px solid #FFFFFF;
+    border-radius:50%;
+    left:21.6%;
+    top:100%;
+   
+} 
+.mirador-bold{
+    font-family: 'Mirador DEMO', sans-serif;
+    font-weight: bold;
+}
+.manrope-light {
+    font-family: 'Manrope', sans-serif;
+    font-weight:300;
+
+}
+.manrope-bold{
+    font-family: 'Manrope', sans-serif;
+    font-weight:bold;
+}
+.gilroy-light{
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 300;
+}
+.gilory-medium {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+}
+
+.gilory-semibold {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 600;
+}
+
+.gilroy-extrabold {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: bold;
+}
+
+.design-item {
+    margin-bottom: 100px;
+}
+
+.strategy-img {
+    width: 80px;
+    height: 80px;
+}
+
+.digital-img1 {
+    transition: all 0.8s linear;
+}
+
+.circle-img {
+    position: fixed;
+    top: 20%;
+    left: 54%;
+    width: 450px;
+    height: 450px;
+  
+   
+}
+
+.triangle {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transition: all 0.8s linear;
+    object-fit: cover;
+
+}
+
+.square {
+    border-radius: 0px;
+    height:480px;
+    clip-path: inset(10% 0% 10% 0%);
+    transition: all 0.8s linear !important;
+
+}
+
+.digital-strategy-head {
+    font-size: 35px;
+}
+
+.strategies-para{
+    max-width:300px;
+}
+.design-strategy-section {
+    color: rgb(255, 255, 255, 1);
+    transition: 1s linear;
+    margin-left: 60px;
+}
+
+.active.design-strategy-section {
+    color: rgb(255, 255, 255, 1);
+
+}
+
+.active.opacity-1 {
+    opacity: 1;
+}
+
+.design-strategy-section-opacity-60 {
+    color: rgb(255, 255, 255, 0.6);
+    transition: 0.5s linear;
+
+}
+
+.design-strategy-section-opacity-20 {
+    color: rgb(255, 255, 255, 0.2);
+    transition: 0.5s linear;
+
+}
+
+.reveal {
+    position: relative;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+}
+
+
+.reveal.active {
+    opacity: 1;
+}
+
+.active.fadeToTop {
+    animation: fade-top 1s ease-in;
+}
+
+@keyframes fade-top {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.strategies-section {
+    position: relative;
+    padding: 0px 202px;
+}
+
+.strategies-section::before {
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(rgb(0, 0, 0, 0),rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 1));
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index:-1;
+
+}
+
+
+.industries-section {
+
+    background-image: linear-gradient(rgb(0, 0, 0, 1) 80%, rgb(0, 0, 0, 1), rgb(12, 24, 49, 1), rgb(17, 35, 70, 0));
+    position: relative;
+    z-index: 1;
+    padding: 0px 100px;
+}
+
+
+.case-studies-desc-container{
+    margin-top:200px;
+}
+.opening-head {
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(to right, #FF3646, #9C38A0, #2288FF);
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.opening-para {
+    max-width: 500px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.industry-header {
+    position: relative;
+
+}
+
+.diverse-header-container {
+    background-color: #000000;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.industry-head {
+
+    font-size: 193px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.diverse-head {
+    font-size: 54px;
+    font-weight: 400;
+    position: absolute;
+    top: 70px;
+    left: 160px;
+}
+
+.industry-card {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #707070;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.cards .industry-card-container {
+    opacity: 0.5;
+    transition: 0.5s ease-in;
+}
+
+.active.opacity-100 {
+    opacity: 1;
+    transition: 0.5s ease-in;
+}
+
+.opacity-50 {
+    opacity: 0.5;
+    transition: 0.5s ease-in;
+
+}
+
+.opacity-60 {
+    opacity: 0.6;
+    transition: 0.5s ease-in;
+}
+
+.opacity-20 {
+    opacity: 0.2;
+    transition: 0.5s ease-in;
+}
+
+.arrow-container {
+    position: sticky;
+    top: 80px;
+}
+
+.rightarrow {
+    position: absolute;
+    top: 40%;
+    left: -20%;
+    width: 500px;
+    height: 750px;
+
+}
+
+.case-study-head {
+    font-size: 65px;
+    font-weight: 400;
+    color: #3B78EC;
+    max-width: 450px;
+}
+
+.case-study-para {
+    font-size: 22px;
+    color: #FFFFFF;
+    font-weight: 300;
+    max-width:500px;
+   
+}
+
+
+
+/* slider */
+.mySwiper1.swiper-backface-hidden .swiper-slide.swiper-slide-active  {
+    transform: scale(1.6,1.3);
+    transition: transform 0.4s ease-in;
+    box-shadow: 0px 0px 10px 2px rgb(57, 7, 90);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: 2;
+}
+
+.mySwiper1.swiper-backface-hidden .swiper-slide.swiper-slide-active{
+    z-index:2;
+   
+}
+
+.mySwiper1 {
+    width: 100%;
+    height: 800px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.mySwiper1 .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.mySwiper1 .swiper-slide .title{
+   visibility:hidden;
+}
+.mySwiper1.swiper-backface-hidden .swiper-slide.swiper-slide-active .title{
+   
+    visibility: visible;
+   
+}
+.mySwiper1 .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.up-right-arrow {
+    display: inline-block;
+    transform: rotate(45deg);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+.up-right-arrow:hover{
+    color:#FFFFFF;
+    animation:arrow 0.5s ease-in-out;
+}
+@keyframes arrow{
+    0%{
+        transform:translate(-30%,30%) rotate(45deg);
+    }
+    100%{
+        transform:translate(0,0) rotate(45deg);
+    }
+}
+
+.slider-container {
+    position: relative;
+    height:1000px;
+}
+
+.cross-lines-container {
+    position: absolute;
+    right: 0%;
+    top: 70%;
+}
+
+.cross-lines {
+    height: 600px;
+}
+
+.chicken-head {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.clients-section {
+    background-color: #000000;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+}
+
+.client-brands-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.client-image-container {
+    position: relative;
+}
+
+.client-para {
+    font-size: 45px;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    max-width: 450px;
+}
+
+.client-brands-container {
+    background-color: #000000;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    right: 5%;
+}
+
+.brands-para {
+    font-size: 40px;
+    max-width: 450px;
+}
+
+.brands {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.brand-img {
+    border-bottom: 1px solid rgb(112, 112, 112, 0.8);
+    border-right: 1px solid rgb(112, 112, 112, 0.8);
+}
+
+.brand-item {
+    border-right: 0;
+}
+
+.brand-container{
+    width:190px;
+    height:120px;
+}
+.brand-container-one{
+    width:190px;
+    height:80px;
+}
+.brand-container-two{
+    width:190px;
+    height:85px;
+}
+.baroda{
+    width:170px;
+    height:85px;
+    padding:18px 14px 25px 14px;
+
+}
+.fullerton{
+    width:150px;
+    height:75px;
+    padding:18px 14px 25px 14px;
+}
+.icici{
+    width:150px;
+    height:70px;
+    padding:18px 14px 25px 14px;
+}
+.gorej{
+    width:180px;
+    height:100px;
+    padding:18px 14px 25px 14px;
+}
+.generali{
+    width:100px;
+    height:100px;
+    padding:18px 14px 25px 14px;
+}
+.srijan{
+    width:110px;
+    height:90px;
+    padding:18px 14px 25px 14px;
+}
+.culture-section {
+    background-image: linear-gradient(rgb(177, 33, 52, 0), rgb(194, 35, 49, 1), rgb(194, 36, 49, 1));
+
+    padding-top: 800px;
+    padding-bottom: 60px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.culture-head {
+    font-size: 60px;
+    max-width: 800px;
+}
+
+.culture-about {
+    font-size: 22px;
+}
+
+.culture-cards .culture-card+.culture-card {
+    margin-left: 10px;
+}
+
+.culture-card {
+    width: 250px;
+    border-width: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.mySwiper2 {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.mySwiper2 .swiper-slide {
+    width: 80%;
+    border-width: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+
+.mySwiper2 .swiper-slide:nth-child(2n+1) {
+    width: 65%;
+    height: 350px;
+}
+
+.mySwiper2 .swiper-slide:nth-child(2n) {
+    width: 35%;
+    height: 350px;
+}
+
+.slider-container {
+    position: relative;
+}
+
+.cross-lines-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.cross-lines {
+    object-position: top right;
+
+
+}
+
+
+.about-company {
+    background-color: rgb(194, 35, 49, 1);
+    position: relative;
+    z-index: 1;
+
+}
+.projects-section{
+    padding:0px 0px 0px 150px;
+}
+.about-company::before {
+    position: absolute;
+    content: "";
+    background-color: rgb(0, 0, 0, 0.06);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.about-company-head {
+    font-size: 250px;
+}
+
+.about-company-sub-head {
+    font-size: 40px;
+}
+
+.about-company-details {
+    border-bottom: 1px solid #FFFFFF;
+    width: 100%;
+}
+
+.about-number {
+    font-size: 35px;
+
+}
+
+.about-area {
+    font-size: 22px;
+    max-width: 100px;
+}
+
+.about-image {
+    width: 45px;
+    height: 45px;
+}
+
+.numbers-head {
+    font-size: 80px;
+    
+}
+
+.about-company-success {
+    background-color: rgb(0, 0, 0, 0.11);
+    padding: 5px 100px;
+
+}
+
+.about-company-success-one {
+    border: 2px solid #FFFFFF;
+    border-bottom-left-radius: 20px;
+}
+
+.about-company-success-two {
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.about-company-success-three {
+    border: 2px solid #FFFFFF;
+    border-top-right-radius: 20px;
+}
+
+.success-count {
+    font-size: 60px;
+}
+
+.about-company-type {
+    font-size: 20px;
+    max-width: 100px;
+}
+
+.footer-section {
+    background-color: #000000;
+
+    position: relative;
+    z-index: 1;
+}
+
+.footer-main-head {
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.footer-cards .footer-card+.footer-card {
+    margin-top: 35px;
+}
+
+.footer-link {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 300;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.footer-info {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.email-input {
+    padding: 10px 0;
+    border-width: 0px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+    width: 90%;
+}
+
+.email-para {
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.subscribe-btn {
+    font-size: 22px;
+}
